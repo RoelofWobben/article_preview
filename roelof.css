@@ -1,0 +1,120 @@
+:root {
+    --very_dark_grayish_blue: hsl(217, 19%, 35%); 
+    --desaturated_dark_blue: hsl(214, 17%, 51%); 
+    --grayish_blue: hsl(212, 23%, 69%); 
+    --light_grayish_blue: hsl(210, 46%, 95%); 
+}
+
+* {
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw; 
+    height: 100vh;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 13px;
+    font-family: 'Manrope', sans-serif;
+    background-color: var(--grayish_blue);
+    padding-top: 20px;    
+}
+
+.left img {
+    width: 345px; 
+    height: 276px;
+    margin-bottom: 30px;  
+}
+
+h3 { 
+    color: var(--very_dark_grayish_blue);
+    margin-bottom: 20px;
+    line-height: 1.2;
+    padding-left: 30px; 
+    padding-right: 30px;   
+}
+
+p{
+    color: var(--desaturated_dark_blue);
+    padding-left: 30px; 
+    padding-right: 35px;
+    font-size: 16px;  
+}
+
+.container {
+    position: relative;
+    width: 345px;
+    background-color: var(--light_grayish_blue);
+    border-radius: 10px;
+    margin-top: 30px;
+    overflow: hidden;    
+}
+
+.personal {
+    display: flex; 
+    flex-direction: row;
+    margin-top: 30px;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px; 
+    padding-right: 30px;
+    margin-bottom: 30px;  
+}
+
+.avatar {
+    width: 60px; 
+    height: 60px;
+    border-radius: 50%;  
+}
+
+.personal_data{
+    display: flex; 
+    flex-direction: column;
+}
+
+.share{
+    height: 40px; 
+    width: 40px;
+    background-color: lightgrey;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%; 
+}
+
+.arrow {
+    width: 20px; 
+    height: 20px;
+    margin-bottom: 0px;  
+}
+
+.name {
+    font-weight: 700;
+    font-size: 16px;  
+}
+
+.date {
+    color: var(--grayish_blue); 
+}
+
+.active {
+    position: absolute;
+    height: 90px; 
+    width: 345px; 
+    background-color: var(--very_dark_grayish_blue); 
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    flex-direction: row;
+    bottom: 0px;
+    padding-right: 40px;   
+}
+
+.icon {
+    width: 15px;
+    height: 13px; 
+}
