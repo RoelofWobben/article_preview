@@ -112,7 +112,8 @@ p{
     flex-direction: row;
     bottom: 0px;
     padding-right: 40px;
-    opacity: 0;    
+  
+    opacity: 0;      
 }
 
 .icon {
