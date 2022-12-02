@@ -111,10 +111,19 @@ p{
     justify-content: space-between; 
     flex-direction: row;
     bottom: 0px;
-    padding-right: 40px;   
+    padding-right: 40px;
+    opacity: 0;    
 }
 
 .icon {
-    width: 15px;
-    height: 13px; 
+    width: 23px;
+    height: 20px;
+    margin-left: 10px; 
 }
+
+.text_click {
+    letter-spacing: 5px;
+    color: lightgray;
+    padding-right: 0px; 
+}
+
