@@ -1,11 +1,19 @@
 // zoek de arrow 
 
-arrow = document.querySelector(".arrow");
+visible_button = document.querySelector(".arrow");
+popup = document.querySelector(".active");
+hidden_button = document.querySelector(".arrow2");  
 
-console.log(arrow); 
+// add a eventlistener to the visible button 
 
-// add a eventlistener to the arrow 
-
-arrow.addEventListener('click', () => {
-    console.log("clicked"); 
+visible_button.addEventListener('click', () => {
+   popup.style.display = "flex";  
 })
+
+// add a eventListener to the hidden button 
+
+hidden_button.addEventListener('click', () => {
+    popup.style.display = "none";
+})
+
+
