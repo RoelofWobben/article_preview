@@ -184,12 +184,11 @@ p{
     .active::after {
         content: '' ;
         position: absolute; 
-        bottom: -50px; 
-        left: 170px; 
-        border: 30px solid transparant; 
-        border-top-color: red; 
+        bottom: -10px; 
+        left: 120px; 
+        border: 30px solid transparent; 
+        border-top-color: var(--very_dark_grayish_blue); 
         border-bottom: 0; 
-        border-right: 0;
     }
 
     .text_click {
